@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Uno>
+    <Moves>
+        <Move>
+            <Player ID="0">
+                <Name>Player</Name>
+                <Cards>
+                    <Card>
+                        <Suit>BLUE</Suit>
+                        <Value>ONE</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>RED</Suit>
+                        <Value>SKIP</Value>
+                        <Value>1</Value>
+                    </Card>
+                    <Card>
+                        <Suit>RED</Suit>
+                        <Value>SEVEN</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>RED</Suit>
+                        <Value>ZERO</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>YELLOW</Suit>
+                        <Value>SEVEN</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>YELLOW</Suit>
+                        <Value>DRAW_TWO</Value>
+                        <Value>2</Value>
+                    </Card>
+                    <Card>
+                        <Suit>RED</Suit>
+                        <Value>EIGHT</Value>
+                        <Value>0</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+    </Moves>
+</Uno>

@@ -1,0 +1,102 @@
+
+The name of class is application.SettingsController
+The name of constructor is application.SettingsController
+The public methods of class are:init
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:save
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:wait
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:wait
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:wait
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:equals
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:toString
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:hashCode
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:getClass
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:notify
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller
+The public methods of class are:notifyAll
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfAIs
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderNumberOfStartingCards
+The field is:private javafx.scene.control.Slider application.SettingsController.sliderAISpeed
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule1
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule2
+The field is:private javafx.scene.control.CheckBox application.SettingsController.checkBoxRule3
+The field is:private javafx.stage.Stage application.SettingsController.stage
+The field is:private application.Controller application.SettingsController.controller

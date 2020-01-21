@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+    <children>
+        <ImageView fx:id="iconDeck" fitHeight="90.0" fitWidth="57.0" layoutX="446.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/card-back.png" />
+            </image>
+            <effect>
+                <Blend />
+            </effect>
+        </ImageView>
+        <ImageView fx:id="iconLastCard" fitHeight="90.0" fitWidth="57.0" layoutX="277.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true" />
+        <Label fx:id="labelCurrentPlayer" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="420.0" prefHeight="31.0" prefWidth="286.0" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Label>
+        <Circle fx:id="circleWishColor" fill="DODGERBLUE" layoutX="392.0" layoutY="298.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Label fx:id="labelWishColor" layoutX="355.0" layoutY="253.0" text="Favorite Colour">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="imageViewWishColor" fitHeight="40.0" fitWidth="40.0" layoutX="372.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true" />
+        <HBox fx:id="hboxInfo" alignment="CENTER" layoutX="207.0" layoutY="611.0" prefHeight="25.0" prefWidth="338.0">
+            <children>
+                <Label fx:id="labelInfo" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="255.0" text="You can not counter. Draw xx cards." textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                </Label>
+                <Button fx:id="buttonInfo" mnemonicParsing="false" text="OK">
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin>
+                </Button>
+            </children>
+        </HBox>
+        <Label fx:id="labelChallengeCounter" alignment="CENTER" contentDisplay="CENTER" layoutX="297.0" layoutY="352.0" prefHeight="17.0" prefWidth="190.0" text="Loser draws 12 cards" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="imageViewDirection" fitHeight="30.0" fitWidth="30.0" layoutX="543.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+        <Label fx:id="labelDirection" layoutX="520.0" layoutY="252.0" text="Game direction:">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelAI2Name" alignment="CENTER" contentDisplay="CENTER" layoutX="661.0" layoutY="107.0" prefHeight="19.0" prefWidth="106.0" text="Computer 2" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelAI3Name" alignment="CENTER" contentDisplay="CENTER" layoutX="36.0" layoutY="107.0" prefHeight="19.0" prefWidth="106.0" text="Computer 3" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelAI1Name" alignment="CENTER" contentDisplay="CENTER" layoutX="340.0" layoutY="38.0" prefHeight="19.0" prefWidth="106.0" text="Computer 1" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonStart" layoutX="360.0" layoutY="390.0" mnemonicParsing="false" text="START">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <MenuBar fx:id="menuBar" prefHeight="25.0" prefWidth="304.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <menus>
+                <Menu fx:id="menu1" mnemonicParsing="false" text="Menu">
+                    <items>
+                        <MenuItem fx:id="menuItemBack" mnemonicParsing="false" onAction="#showMainMenu" text="Back to Main Menu" />
+
+
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ImageView fx:id="imageViewLogo" fitHeight="150.0" fitWidth="160.0" layoutX="324.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/icon.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="labelLogo" layoutX="252.0" layoutY="385.0" text="Welcome to UNO!">
+            <font>
+                <Font name="System Bold" size="28.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonNewGame" layoutX="206.0" layoutY="468.0" mnemonicParsing="false" onAction="#startGame" text="Singleplayer">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonSettings" layoutX="438.0" layoutY="468.0" mnemonicParsing="false" onAction="#openSettings" text="Settings">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+      <ImageView fx:id="backgroundImg" fitHeight="222.0" fitWidth="800.0" layoutX="-1.0" layoutY="25.0" pickOnBounds="true" translateY="5.0" />
+      <Label fx:id="lblTime" layoutX="610.0" layoutY="173.0" prefHeight="30.0" prefWidth="46.0" text="Time" />
+      <TextArea fx:id="txtChatArea" layoutX="587.0" layoutY="270.0" prefHeight="210.0" prefWidth="200.0" />
+      <TextField fx:id="txtMessage" layoutX="594.0" layoutY="483.0" />
+      <Button fx:id="btnSendServer" layoutX="661.0" layoutY="526.0" mnemonicParsing="false" onAction="#OnClickBtnSendServer" text="Send" />
+      <Button fx:id="btnSendClient" layoutX="727.0" layoutY="526.0" mnemonicParsing="false" onAction="#OnClickBtnSednClient" text="Send" />
+      <Button fx:id="buttonMultiplayer" layoutX="318.0" layoutY="468.0" mnemonicParsing="false" onAction="#starMultiplayer" text="Multiplayer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnXML" layoutX="4.0" layoutY="283.0" mnemonicParsing="false" onAction="#saveXML" text="save" />
+      <Button fx:id="btnXML1" layoutX="11.0" layoutY="337.0" mnemonicParsing="false" onAction="#onLoadClick" text="load" />
+      <Label fx:id="lblName" layoutX="183.0" layoutY="57.0" text="Label" />
+    </children>
+</AnchorPane>

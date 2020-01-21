@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Uno>
+    <Moves>
+        <Move>
+            <Player ID="0">
+                <Name>Player</Name>
+                <Cards>
+                    <Card>
+                        <Suit>GREEN</Suit>
+                        <Value>ONE</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>BLACK</Suit>
+                        <Value>DRAW_FOUR</Value>
+                        <Value>10</Value>
+                    </Card>
+                    <Card>
+                        <Suit>BLACK</Suit>
+                        <Value>DRAW_FOUR</Value>
+                        <Value>10</Value>
+                    </Card>
+                    <Card>
+                        <Suit>YELLOW</Suit>
+                        <Value>TWO</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>BLUE</Suit>
+                        <Value>TWO</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>BLUE</Suit>
+                        <Value>ZERO</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>GREEN</Suit>
+                        <Value>ZERO</Value>
+                        <Value>0</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+        <Move>
+            <Player ID="0">
+                <Cards>
+                    <Card>
+                        <Suit>BLACK</Suit>
+                        <Value>DRAW_FOUR</Value>
+                        <Value>10</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+        <Move>
+            <Player ID="0">
+                <Cards>
+                    <Card>
+                        <Suit>BLACK</Suit>
+                        <Value>DRAW_FOUR</Value>
+                        <Value>10</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+        <Move>
+            <Player ID="0">
+                <Cards>
+                    <Card>
+                        <Suit>BLUE</Suit>
+                        <Value>TWO</Value>
+                        <Value>0</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+        <Move>
+            <Player ID="0">
+                <Cards>
+                    <Card>
+                        <Suit>BLUE</Suit>
+                        <Value>ZERO</Value>
+                        <Value>0</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+    </Moves>
+</Uno>

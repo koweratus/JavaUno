@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Uno>
+    <Moves>
+        <Move>
+            <Player ID="0">
+                <Name>Player</Name>
+                <Cards>
+                    <Card>
+                        <Suit>BLACK</Suit>
+                        <Value>WILD</Value>
+                        <Value>5</Value>
+                    </Card>
+                    <Card>
+                        <Suit>GREEN</Suit>
+                        <Value>SIX</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>GREEN</Suit>
+                        <Value>EIGHT</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>GREEN</Suit>
+                        <Value>NINE</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>BLUE</Suit>
+                        <Value>SIX</Value>
+                        <Value>0</Value>
+                    </Card>
+                    <Card>
+                        <Suit>RED</Suit>
+                        <Value>SEVEN</Value>
+                        <Value>0</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+        <Move>
+            <Player ID="0">
+                <Cards>
+                    <Card>
+                        <Suit>BLACK</Suit>
+                        <Value>WILD</Value>
+                        <Value>5</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+        <Move>
+            <Player ID="0">
+                <Cards>
+                    <Card>
+                        <Suit>GREEN</Suit>
+                        <Value>SIX</Value>
+                        <Value>0</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+        <Move>
+            <Player ID="0">
+                <Cards>
+                    <Card>
+                        <Suit>GREEN</Suit>
+                        <Value>EIGHT</Value>
+                        <Value>0</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+        <Move>
+            <Player ID="0">
+                <Cards>
+                    <Card>
+                        <Suit>GREEN</Suit>
+                        <Value>NINE</Value>
+                        <Value>0</Value>
+                    </Card>
+                </Cards>
+            </Player>
+        </Move>
+    </Moves>
+</Uno>
